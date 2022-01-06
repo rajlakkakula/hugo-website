@@ -22,28 +22,65 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Research Assistant Professor
+    company: North Dakota State University
     company_url: ''
     company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    location: Fargo, North Dakota
+    date_start: '2021-05-01'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Research in Commodity Markets
+        * Data Collection and Data Wrangling
+        * Exploratory Data Analysis
+        * Data Analysis
+        * Publishing in Professional Journals
         
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Assistant Professor
+    company: Tennessee State University
     company_url: ''
     company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Nashville, Tennessee
+    date_start: '2020-09-01'
+    date_end: '2020-10-31'
+    description: |2-
+        Responsibilities include:
+        
+        * Agricultural Markets
+        * Exploratory Data Analysis
+        * Data Analysis
+  - title: Research Assistant Professor
+    company: North Dakota State University
+    company_url: ''
+    company_logo: org-gc
+    location: Fargo, North Dakota
+    date_start: '2020-08-01'
+    date_end: '2015-01-01'
+    description: |2-
+        Responsibilities include:
+        
+        * Research in Commodity Markets
+        * Data Collection and Data Wrangling
+        * Exploratory Data Analysis
+        * Data Analysis
+        * Publishing in Professional Journals
+  - title: Post-Doctoral Associate
+    company: University of Florida
+    company_url: ''
+    company_logo: org-gc
+    location: Gainesville, Florida
+    date_start: '2014-08-01'
+    date_end: '2014-12-01'
+    description: |2-
+        Responsibilities include:
+        
+        * Research in Sweetener Markets
+        * Data Collection and Data Wrangling
+        * Exploratory Data Analysis
+        * Data Analysis
+        * Publishing in Professional Journals
 
 design:
   columns: '2'
