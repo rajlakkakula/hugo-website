@@ -41,7 +41,7 @@ superuser: true
 title: Prithviraj Lakkakula
 ---
 
-Prithviraj Lakkakula is a Research Assistant Professor of Agribusiness and Applied Economics at North Dakota State University. I am passionate about applying econometrics, statistics, and data science methods to gain insights from data.
+Prithviraj Lakkakula is currently a Research Assistant Professor of Agribusiness and Applied Economics at North Dakota State University. I am passionate about applying econometrics, statistics, and data science methods to gain insights from data. I have over six years of experience in applied econometrics/statistics and over three years of experience in data science methods.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
