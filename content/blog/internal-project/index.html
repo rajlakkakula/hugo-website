@@ -1,0 +1,46 @@
+---
+date: "2021-12-12T00:00:00Z"
+external_link: ""
+image:
+#  caption: Photo by rawpixel on Unsplash
+#  focal_point: Smart
+#links:
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
+#slides: example
+summary: A demonstration of scalable faceting using ggplot2 and TrelliscopeJS R pacakges.
+tags:
+- Data Viz
+title: Scalable Faceting with TrelliscopeJS
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+<script src="{{< blogdown/postref >}}index_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="{{< blogdown/postref >}}index_files/trelliscopejs_widget/trelliscope.min.js"></script>
+<script src="{{< blogdown/postref >}}index_files/trelliscopejs_widget-binding/trelliscopejs_widget.js"></script>
+
+
+<p>In this post, I will use TrelliscopeJS (R package) to demonstrate scalable faceting using an example.</p>
+<div id="origins" class="section level2">
+<h2>Origins</h2>
+<p>We have multiple origins, including US Gulf, US PNW, Brazil, Ukraine, Argentina from which grain is exported to various destinations.</p>
+</div>
+<div id="destinations" class="section level2">
+<h2>Destinations</h2>
+<p>We have multiple destinations, including China, Japan, Indonesia, South Korea, Middle-East, North Africa, The EU, Vietnam.</p>
+</div>
+<div id="change-in-shares" class="section level2">
+<h2>Change in Shares</h2>
+<p>Shock model shares are the market shares from each of the origins to all destinations during COVID period while the baseline model shares are the market shares from origins to all destinations using a counterfactual scenario of ocean shipping rates had there been no COVID. The model is an optimized Monte Carlo simulation model using logistics, inland transportation, origin price, port elevation costs computed as a freight-on-board (FOB) port values. To this we add ocean shipping rates for routes from origins to destinations. (For the US and Ukraine origins, we have an additional secondary railcar values as well as cost transporting grain via barge).</p>
+<p>Then the change in shares are computed as shown below to identify the losers and winners and if so for which destinations/routes.</p>
+<p>Change in shares = Shocked shares - Baseline shares</p>
+<div id="htmlwidget-1" style="width:900px;height:550px;" class="trelliscopejs_widget html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"id":"d64e0f53","config_info":"'rmarkdown_files/appfiles/config.jsonp'","self_contained":false,"latest_display":{"name":"by_Destination_Month","group":"common"},"spa":false,"in_knitr":true,"in_shiny":false,"in_notebook":false},"evals":[],"jsHooks":[]}</script>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="1152" /></p>
+</div>
