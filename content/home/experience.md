@@ -25,7 +25,7 @@ experience:
   - title: Research Assistant Professor
     company: North Dakota State University
     company_url: ''
-    company_logo: org-gc
+    company_logo: ndsu
     location: Fargo, North Dakota
     date_start: '2021-05-01'
     date_end: ''
@@ -41,20 +41,15 @@ experience:
   - title: Assistant Professor
     company: Tennessee State University
     company_url: ''
-    company_logo: org-x
+    company_logo: tsu
     location: Nashville, Tennessee
     date_start: '2020-09-01'
     date_end: '2020-10-31'
-    description: |2-
-        Responsibilities include:
-        
-        * Agricultural Markets
-        * Exploratory Data Analysis
-        * Data Analysis
+    description: Responsibilities include research in Agricultural Markets, Exploratory Data Analysis, and Data Analysis
   - title: Research Assistant Professor
     company: North Dakota State University
     company_url: ''
-    company_logo: org-gc
+    company_logo: ndsu
     location: Fargo, North Dakota
     date_start: '2020-08-01'
     date_end: '2015-01-01'
@@ -64,23 +59,16 @@ experience:
         * Research in Commodity Markets
         * Data Collection and Data Wrangling
         * Exploratory Data Analysis
-        * Data Analysis
-        * Publishing in Professional Journals
+        * Econometric Modeling and Estimation
+        * Publishing Papers in Professional Journals
   - title: Post-Doctoral Associate
     company: University of Florida
     company_url: ''
-    company_logo: org-gc
+    company_logo: uf
     location: Gainesville, Florida
     date_start: '2014-08-01'
     date_end: '2014-12-01'
-    description: |2-
-        Responsibilities include:
-        
-        * Research in Sweetener Markets
-        * Data Collection and Data Wrangling
-        * Exploratory Data Analysis
-        * Data Analysis
-        * Publishing in Professional Journals
+    description: Responsibilities include research in Sweetener Markets, Data Collection, Data Wrangling, Exploratory Data Analysis, Econometric Modeling, and Publishing Papers in Professional Journals
 
 design:
   columns: '2'
