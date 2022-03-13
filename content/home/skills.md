@@ -20,18 +20,18 @@ feature:
   icon: r-project
   icon_pack: fab
   name: R
-- description: 'Intermediate'
+- description: 'Beginner'
   icon: python
   icon_pack: fab
   name: Python
-- description: ''
-  icon: docker
-  icon_pack: fab
-  name: Docker
-- description: ''
-  icon: bootstrap
-  icon_pack: fab
-  name: Bootstrap
+#- description: ''
+#  icon: docker
+#  icon_pack: fab
+#  name: Docker
+#- description: ''
+#  icon: bootstrap
+#  icon_pack: fab
+#  name: Bootstrap
 - description: ''
   icon: git
   icon_pack: fab
