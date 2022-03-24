@@ -40,7 +40,7 @@ url_video: ""
 <p>Shock model shares are the market shares from each of the origins to all destinations during COVID period while the baseline model shares are the market shares from origins to all destinations using a counterfactual scenario of ocean shipping rates had there been no COVID. The model is an optimized Monte Carlo simulation model using logistics, inland transportation, origin price, port elevation costs computed as a freight-on-board (FOB) port values. To this we add ocean shipping rates for routes from origins to destinations. (For the US and Ukraine origins, we have an additional secondary railcar values as well as cost transporting grain via barge).</p>
 <p>Then the change in shares are computed as shown below to identify the losers and winners and if so for which destinations/routes.</p>
 <p>Change in shares = Shocked shares - Baseline shares</p>
-<script src="https://unpkg.com/trelliscopejs-lib/dist/trelliscope.min.js" type="application/octet-stream"></script>
+<script src="https://unpkg.com/trelliscopejs-lib/dist/trelliscope.min.js" type="application/json" id="data"></script>
 <div id="htmlwidget-1" style="width:900px;height:550px;" class="trelliscopejs_widget html-widget"></div>
 <script type="application/json" data-for="htmlwidget-1">{"x":{"id":"d64e0f53","config_info":"'rmarkdown_files/appfiles/config.jsonp'","self_contained":false,"latest_display":{"name":"by_Destination_Month","group":"common"},"spa":false,"in_knitr":true,"in_shiny":false,"in_notebook":false},"evals":[],"jsHooks":[]}</script>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="1152" /></p>
