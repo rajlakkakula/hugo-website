@@ -38,6 +38,7 @@ Then the change in shares are computed as shown below to identify the losers and
 
 Change in shares = Shocked shares - Baseline shares 
 
+<script src="https://unpkg.com/trelliscopejs-lib/dist/trelliscope.min.js" type="application/octet-stream"></script>
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width = 12, fig.height=10}
 library(readxl)
@@ -65,6 +66,4 @@ ggplot(dat, aes(Month, Change_in_Shares, group=Origin)) +
   geom_point(aes(linetype=Origin)) + theme_bw() +
   facet_wrap(~ Destination)
 ```
-
-
 
