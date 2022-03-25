@@ -55,7 +55,7 @@ ggplot(dat_sub, aes(Origin, Change_in_Shares, fill = pos)) +
   geom_col(position = "identity", colour = "black", size = 0.25) + coord_flip() + theme_bw() +
   geom_text(aes(label = Change_in_Shares), hjust = -0.5) +
   scale_fill_manual(values = c("red", "green"), guide = FALSE) +
-  facet_trelliscope(~ Destination + Month, nrow = 2, ncol = 3, path ="rmarkdown_files")
+  facet_trelliscope(~ Destination + Month, nrow = 2, ncol = 3, path ="rmarkdown_files", self_contained = TRUE)
 ```
 
 
