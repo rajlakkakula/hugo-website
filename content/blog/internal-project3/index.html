@@ -14,6 +14,7 @@ output:
     toc: yes
     highlight: zenburn
     theme: cerulean
+    number_sections: yes
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
@@ -262,7 +263,7 @@ model_rf_random &lt;- train(wheat_var ~.,
                          verbose = FALSE,
                          tuneLength = 4)
 toc()</code></pre>
-<pre><code>## 3.746 sec elapsed</code></pre>
+<pre><code>## 3.158 sec elapsed</code></pre>
 <pre class="r"><code>print(model_rf_random)</code></pre>
 <pre><code>## Random Forest 
 ## 
@@ -338,7 +339,7 @@ model_gbm_grid &lt;- train(wheat_var ~.,
                          verbose = FALSE,
                          tuneGrid = manual_grid)
 toc()</code></pre>
-<pre><code>## 3.614 sec elapsed</code></pre>
+<pre><code>## 6.457 sec elapsed</code></pre>
 <pre class="r"><code>plot(model_gbm_grid)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
 <pre class="r"><code>plot(model_gbm_grid,
