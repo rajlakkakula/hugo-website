@@ -16,11 +16,11 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 'Fluent'
+- description: ''
   icon: r-project
   icon_pack: fab
   name: R
-- description: 'Beginner'
+- description: ''
   icon: python
   icon_pack: fab
   name: Python
@@ -33,9 +33,17 @@ feature:
 #  icon_pack: fab
 #  name: Bootstrap
 - description: ''
-  icon: git
+  icon: github
   icon_pack: fab
-  name: Git
+  name: GitHub
+- description: ''
+  icon: database
+  icon_pack: fas
+  name: SQL
+- description: ''
+  icon: signal
+  icon_pack: fas
+  name: Power BI
 #- description: 10%
 #  icon: camera-retro
 #  icon_pack: fas
