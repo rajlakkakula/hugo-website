@@ -22,13 +22,21 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+    - title: Data Scientist
+    company: Mann+Hummel USA Inc.
+    company_url: ''
+    company_logo: mh
+    location: Raleigh, North Calorina
+    date_start: '2023-03-05'
+    date_end: ''
+    
   - title: Research Assistant Professor
     company: North Dakota State University
     company_url: ''
     company_logo: ndsu
     location: Fargo, North Dakota
     date_start: '2021-05-01'
-    date_end: ''
+    date_end: '2023-03-05'
         
   - title: Assistant Professor
     company: Tennessee State University

@@ -15,9 +15,9 @@ interests:
 - Machine Learning
 - Deep Learning
 organizations:
-- name: North Dakota State University
-  url: https://www.ndsu.edu/
-role: Applied Economist
+- name: Mann+Hummel USA Inc.
+  url: https://www.mann-hummel.com/en.html
+role: Data Scientist
 social:
 - icon: envelope
   icon_pack: fas
@@ -38,11 +38,9 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/prithviraj-lakkakula-36357250/
 superuser: true
-title: Prithviraj Lakkakula
+title: Dr. Prithviraj Lakkakula
 ---
 
-Prithviraj Lakkakula is currently a Research Assistant Professor of Agribusiness and Applied Economics at North Dakota State University. I am passionate about gaining insights from data by applying econometrics, statistics, and data science techniques. I have over six years of experience in applied econometrics and statistics and over four years of experience in data science methods.
+Dr. Prithviraj Lakkakula is currently a Data Scientist at Mann+Hummel USA Inc., a global leader in filtration. Dr. Lakkakula has over seven years of experience in Data Analytics, specifically working on topics of time series analysis, demand & price analysis, and causal inference. Dr. Lakkakula is passionate about automation and gaining insights from data by applying statistics, machine learning, deep learning, and several other data science techniques.
 
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
-and {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}. and {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
